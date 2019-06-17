@@ -1,0 +1,18 @@
+{ 
+    "productList":
+    [{
+        "product": "Shampun",
+        "description": "To wash your hair",
+        "cost": 9  
+    },{
+        
+        "product": "Milo",
+        "description": "To wash your hands",
+        "cost": 5  
+    },{
+        
+        "product": "Zubnaya Pasta",
+        "description": "To wash your teeth",
+        "cost": 7  
+    }]
+}
