@@ -1,18 +1,17 @@
 { 
     "productList":
     [{
-        "product": "Shampun",
+        "product": "Shampoo",
         "description": "To wash your hair",
         "cost": 9  
     },{
-        
-        "product": "Milo",
+        "product": "Soap",
         "description": "To wash your hands",
         "cost": 5  
     },{
-        
-        "product": "Zubnaya Pasta",
+        "product": "Toothpaste",
         "description": "To wash your teeth",
         "cost": 7  
-    }]
+    }
+   ]
 }

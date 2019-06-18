@@ -4,15 +4,16 @@
       <th>Product</th>
       <th>Description</th>
       <th>Cost</th>
-      <th>Image</th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Shampun</td>
-      <td>To wash your hair</td>
-      <td>5 $</td>
-      <td><img src="https://html5css.ru/bootstrap4/sanfran.jpg" class="rounded" width="100px" height="100px"></td>
+    <tr *ngFor="let prod of products">
+      <td>{{prod?.product}}</td>
+      <td>{{prod?.description}}</td>
+      <td>{{prod?.cost}}</td>
+      <td><button type="button" class="btn btn-info">Add to cart</button></td>
     </tr>
   </tbody>
 </table>

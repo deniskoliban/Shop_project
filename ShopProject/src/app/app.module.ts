@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { GeneralComponent } from './general/general.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { ProductComponent } from './product/product.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 const appRoutes: Routes =[
@@ -25,7 +26,8 @@ const appRoutes: Routes =[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
